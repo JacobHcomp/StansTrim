@@ -1,0 +1,46 @@
+
+body {
+  background-image: url('images/MicrosoftTeams-image\ \(2\).png')
+    }
+
+h1 {
+  background-color: black;
+}
+
+p {
+  background-color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 8px 0;
+  padding: 0;
+  overflow: hidden;
+  position:fixed;
+  top:0;
+  width: 99%;
+}
+
+li {
+  float:left;
+  border-right:1px solid #bbb;
+}
+
+li a {
+  font-family: cursive;
+  display: block;
+  color: rgb(240, 236, 236);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: rgb(66, 66, 66);
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #3587d4;
+}
